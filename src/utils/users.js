@@ -11,7 +11,7 @@ const addUser = ({id, username, room}) => {
     if(!username || !room) {
         return {
             error: 'Username and room are required!'
-        }
+        }  
     }
 
     //Check for existing user
